@@ -12,14 +12,41 @@
 </head>
 
 <body>
-    <section>
-         <canvas id="myChart" width="200" height="200"></canvas>
+    <section id="padre">
+        <div id="result"></div>
+        <div><canvas id="myChart" width="200" height="200"></canvas></div>
+        <div id="result-name"></div>
+         
+          
+
+ 
+         
      </section>
 
-     <label for="">Busca tu pokemon</label>
-     <input type="text" id="input-poke" placeholder="Inserta pokemon">
+   
+<div id="container-search" >
+
+    <div id="search-div">
+        <label >Busca tu pokemon</label>
+        <br>
+        <input type="text" id="input-poke" placeholder="Inserta pokemon">
+        <br>
+        <button  id="search-button">Buscar pokemon</button>
+
+    </div>
+
+    <div>
+        <button id="search-again" onclick="reset();">Buscar otro pokemon</button>
+
+
+    </div>
+
+
     
-     <button  id="search-button">Buscar pokemon</button>
+
+</div>
+
+
 
 
 
