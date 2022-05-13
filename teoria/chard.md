@@ -59,9 +59,6 @@ Lo bueno de esta librería es que existen un sinfín de opciones para animar los
 
 
 
-
-
-
 #### Más librerías de gráficas
 
 [C3 JS](https://c3js.org/):  C3 viene con una gran variedad de APIs que puedes utilizar para controlar tus gráficos de forma fácil.
